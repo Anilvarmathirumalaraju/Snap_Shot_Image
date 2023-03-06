@@ -1,0 +1,58 @@
+.topBarContainer{
+    margin-left:40%;
+}
+.topBarContainer>div{
+    margin-bottom: 10px;
+    
+}
+div:nth-child(3)>button{
+    background-color: mediumturquoise;
+    color:white;
+    margin:0px 3px;
+    border-radius: 3px;
+}
+div:nth-child(2)>button{
+    background-color: gray;
+    color:white;
+    margin:0px 3px;
+    border-radius: 3px;
+}
+.topBarContainer>div>button:hover{
+    cursor: pointer;
+}
+h2{
+    margin-left: 40%;
+ }
+ #imageContainer{
+    display:flex;
+    flex-wrap: wrap;
+    width:800px;
+    justify-content: flex-start;
+    gap:10px;
+    margin-left: 25%;
+ }
+ .img{
+    width:300px;
+    height:300px;
+ }
+ .img:hover{
+   cursor: pointer;
+   
+    
+ }
+ .original{
+    width:200px;
+    height:200px;
+ }
+ .light {
+    color: black;
+}
+
+.dark {
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    margin-left: 5px;
+}
